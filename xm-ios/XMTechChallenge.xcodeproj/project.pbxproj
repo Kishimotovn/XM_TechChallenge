@@ -7,62 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F3423F32C4022E300704F42 /* XMTechnicalTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3423F22C4022E300704F42 /* XMTechnicalTestApp.swift */; };
-		0F3423F52C4022E300704F42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3423F42C4022E300704F42 /* ContentView.swift */; };
-		0F3423F72C4022E400704F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3423F62C4022E400704F42 /* Assets.xcassets */; };
-		0F3423FB2C4022E400704F42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3423FA2C4022E400704F42 /* Preview Assets.xcassets */; };
-		0F3424052C4022E400704F42 /* XMTechnicalTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3424042C4022E400704F42 /* XMTechnicalTestTests.swift */; };
-		0F34240F2C4022E400704F42 /* XMTechnicalTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F34240E2C4022E400704F42 /* XMTechnicalTestUITests.swift */; };
-		0F3424112C4022E400704F42 /* XMTechnicalTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3424102C4022E400704F42 /* XMTechnicalTestUITestsLaunchTests.swift */; };
+		0F125BCE2C4035D300D11129 /* XMTechChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F125BCD2C4035D300D11129 /* XMTechChallengeApp.swift */; };
+		0F125BD22C4035D500D11129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F125BD12C4035D500D11129 /* Assets.xcassets */; };
+		0F125BD62C4035D500D11129 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F125BD52C4035D500D11129 /* Preview Assets.xcassets */; };
+		0F125BE02C4035D500D11129 /* XMTechChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F125BDF2C4035D500D11129 /* XMTechChallengeTests.swift */; };
+		0F125BEA2C4035D500D11129 /* XMTechChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F125BE92C4035D500D11129 /* XMTechChallengeUITests.swift */; };
+		0F125BEC2C4035D500D11129 /* XMTechChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F125BEB2C4035D500D11129 /* XMTechChallengeUITestsLaunchTests.swift */; };
+		0FCCCDE82C407BD100E7BFAE /* AppRoot in Frameworks */ = {isa = PBXBuildFile; productRef = 0FCCCDE72C407BD100E7BFAE /* AppRoot */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0F3424012C4022E400704F42 /* PBXContainerItemProxy */ = {
+		0F125BDC2C4035D500D11129 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0F3423E72C4022E300704F42 /* Project object */;
+			containerPortal = 0F125BC22C4035D300D11129 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0F3423EE2C4022E300704F42;
-			remoteInfo = XMTechnicalTest;
+			remoteGlobalIDString = 0F125BC92C4035D300D11129;
+			remoteInfo = XMTechChallenge;
 		};
-		0F34240B2C4022E400704F42 /* PBXContainerItemProxy */ = {
+		0F125BE62C4035D500D11129 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0F3423E72C4022E300704F42 /* Project object */;
+			containerPortal = 0F125BC22C4035D300D11129 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0F3423EE2C4022E300704F42;
-			remoteInfo = XMTechnicalTest;
+			remoteGlobalIDString = 0F125BC92C4035D300D11129;
+			remoteInfo = XMTechChallenge;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F3423EF2C4022E300704F42 /* XMTechnicalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMTechnicalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F3423F22C4022E300704F42 /* XMTechnicalTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMTechnicalTestApp.swift; sourceTree = "<group>"; };
-		0F3423F42C4022E300704F42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0F3423F62C4022E400704F42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0F3423F82C4022E400704F42 /* XMTechnicalTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XMTechnicalTest.entitlements; sourceTree = "<group>"; };
-		0F3423FA2C4022E400704F42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0F3424002C4022E400704F42 /* XMTechnicalTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMTechnicalTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F3424042C4022E400704F42 /* XMTechnicalTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMTechnicalTestTests.swift; sourceTree = "<group>"; };
-		0F34240A2C4022E400704F42 /* XMTechnicalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMTechnicalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F34240E2C4022E400704F42 /* XMTechnicalTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMTechnicalTestUITests.swift; sourceTree = "<group>"; };
-		0F3424102C4022E400704F42 /* XMTechnicalTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMTechnicalTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F125BCA2C4035D300D11129 /* XMTechChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMTechChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F125BCD2C4035D300D11129 /* XMTechChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMTechChallengeApp.swift; sourceTree = "<group>"; };
+		0F125BD12C4035D500D11129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F125BD32C4035D500D11129 /* XMTechChallenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XMTechChallenge.entitlements; sourceTree = "<group>"; };
+		0F125BD52C4035D500D11129 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0F125BDB2C4035D500D11129 /* XMTechChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMTechChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F125BDF2C4035D500D11129 /* XMTechChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMTechChallengeTests.swift; sourceTree = "<group>"; };
+		0F125BE52C4035D500D11129 /* XMTechChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMTechChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F125BE92C4035D500D11129 /* XMTechChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMTechChallengeUITests.swift; sourceTree = "<group>"; };
+		0F125BEB2C4035D500D11129 /* XMTechChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMTechChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F125BF82C40368400D11129 /* XMTechnicalChallenge */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = XMTechnicalChallenge; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0F3423EC2C4022E300704F42 /* Frameworks */ = {
+		0F125BC72C4035D300D11129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FCCCDE82C407BD100E7BFAE /* AppRoot in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F125BD82C4035D500D11129 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0F3423FD2C4022E400704F42 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0F3424072C4022E400704F42 /* Frameworks */ = {
+		0F125BE22C4035D500D11129 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,143 +73,155 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F3423E62C4022E300704F42 = {
+		0F125BC12C4035D300D11129 = {
 			isa = PBXGroup;
 			children = (
-				0F3423F12C4022E300704F42 /* XMTechnicalTest */,
-				0F3424032C4022E400704F42 /* XMTechnicalTestTests */,
-				0F34240D2C4022E400704F42 /* XMTechnicalTestUITests */,
-				0F3423F02C4022E300704F42 /* Products */,
+				0F125BF82C40368400D11129 /* XMTechnicalChallenge */,
+				0F125BCC2C4035D300D11129 /* XMTechChallenge */,
+				0F125BDE2C4035D500D11129 /* XMTechChallengeTests */,
+				0F125BE82C4035D500D11129 /* XMTechChallengeUITests */,
+				0F125BCB2C4035D300D11129 /* Products */,
+				0FCCCDE62C407BD100E7BFAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		0F3423F02C4022E300704F42 /* Products */ = {
+		0F125BCB2C4035D300D11129 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0F3423EF2C4022E300704F42 /* XMTechnicalTest.app */,
-				0F3424002C4022E400704F42 /* XMTechnicalTestTests.xctest */,
-				0F34240A2C4022E400704F42 /* XMTechnicalTestUITests.xctest */,
+				0F125BCA2C4035D300D11129 /* XMTechChallenge.app */,
+				0F125BDB2C4035D500D11129 /* XMTechChallengeTests.xctest */,
+				0F125BE52C4035D500D11129 /* XMTechChallengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0F3423F12C4022E300704F42 /* XMTechnicalTest */ = {
+		0F125BCC2C4035D300D11129 /* XMTechChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				0F3423F22C4022E300704F42 /* XMTechnicalTestApp.swift */,
-				0F3423F42C4022E300704F42 /* ContentView.swift */,
-				0F3423F62C4022E400704F42 /* Assets.xcassets */,
-				0F3423F82C4022E400704F42 /* XMTechnicalTest.entitlements */,
-				0F3423F92C4022E400704F42 /* Preview Content */,
+				0F125BCD2C4035D300D11129 /* XMTechChallengeApp.swift */,
+				0F125BD12C4035D500D11129 /* Assets.xcassets */,
+				0F125BD32C4035D500D11129 /* XMTechChallenge.entitlements */,
+				0F125BD42C4035D500D11129 /* Preview Content */,
 			);
-			path = XMTechnicalTest;
+			name = XMTechChallenge;
+			path = XCTechChallenge;
 			sourceTree = "<group>";
 		};
-		0F3423F92C4022E400704F42 /* Preview Content */ = {
+		0F125BD42C4035D500D11129 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				0F3423FA2C4022E400704F42 /* Preview Assets.xcassets */,
+				0F125BD52C4035D500D11129 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		0F3424032C4022E400704F42 /* XMTechnicalTestTests */ = {
+		0F125BDE2C4035D500D11129 /* XMTechChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				0F3424042C4022E400704F42 /* XMTechnicalTestTests.swift */,
+				0F125BDF2C4035D500D11129 /* XMTechChallengeTests.swift */,
 			);
-			path = XMTechnicalTestTests;
+			path = XMTechChallengeTests;
 			sourceTree = "<group>";
 		};
-		0F34240D2C4022E400704F42 /* XMTechnicalTestUITests */ = {
+		0F125BE82C4035D500D11129 /* XMTechChallengeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0F34240E2C4022E400704F42 /* XMTechnicalTestUITests.swift */,
-				0F3424102C4022E400704F42 /* XMTechnicalTestUITestsLaunchTests.swift */,
+				0F125BE92C4035D500D11129 /* XMTechChallengeUITests.swift */,
+				0F125BEB2C4035D500D11129 /* XMTechChallengeUITestsLaunchTests.swift */,
 			);
-			path = XMTechnicalTestUITests;
+			path = XMTechChallengeUITests;
+			sourceTree = "<group>";
+		};
+		0FCCCDE62C407BD100E7BFAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0F3423EE2C4022E300704F42 /* XMTechnicalTest */ = {
+		0F125BC92C4035D300D11129 /* XMTechChallenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F3424142C4022E400704F42 /* Build configuration list for PBXNativeTarget "XMTechnicalTest" */;
+			buildConfigurationList = 0F125BEF2C4035D500D11129 /* Build configuration list for PBXNativeTarget "XMTechChallenge" */;
 			buildPhases = (
-				0F3423EB2C4022E300704F42 /* Sources */,
-				0F3423EC2C4022E300704F42 /* Frameworks */,
-				0F3423ED2C4022E300704F42 /* Resources */,
+				0F125BC62C4035D300D11129 /* Sources */,
+				0F125BC72C4035D300D11129 /* Frameworks */,
+				0F125BC82C4035D300D11129 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = XMTechnicalTest;
-			productName = XMTechnicalTest;
-			productReference = 0F3423EF2C4022E300704F42 /* XMTechnicalTest.app */;
+			name = XMTechChallenge;
+			packageProductDependencies = (
+				0FCCCDE72C407BD100E7BFAE /* AppRoot */,
+			);
+			productName = XMTechChallenge;
+			productReference = 0F125BCA2C4035D300D11129 /* XMTechChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0F3423FF2C4022E400704F42 /* XMTechnicalTestTests */ = {
+		0F125BDA2C4035D500D11129 /* XMTechChallengeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F3424172C4022E400704F42 /* Build configuration list for PBXNativeTarget "XMTechnicalTestTests" */;
+			buildConfigurationList = 0F125BF22C4035D500D11129 /* Build configuration list for PBXNativeTarget "XMTechChallengeTests" */;
 			buildPhases = (
-				0F3423FC2C4022E400704F42 /* Sources */,
-				0F3423FD2C4022E400704F42 /* Frameworks */,
-				0F3423FE2C4022E400704F42 /* Resources */,
+				0F125BD72C4035D500D11129 /* Sources */,
+				0F125BD82C4035D500D11129 /* Frameworks */,
+				0F125BD92C4035D500D11129 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0F3424022C4022E400704F42 /* PBXTargetDependency */,
+				0F125BDD2C4035D500D11129 /* PBXTargetDependency */,
 			);
-			name = XMTechnicalTestTests;
-			productName = XMTechnicalTestTests;
-			productReference = 0F3424002C4022E400704F42 /* XMTechnicalTestTests.xctest */;
+			name = XMTechChallengeTests;
+			productName = XMTechChallengeTests;
+			productReference = 0F125BDB2C4035D500D11129 /* XMTechChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0F3424092C4022E400704F42 /* XMTechnicalTestUITests */ = {
+		0F125BE42C4035D500D11129 /* XMTechChallengeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F34241A2C4022E400704F42 /* Build configuration list for PBXNativeTarget "XMTechnicalTestUITests" */;
+			buildConfigurationList = 0F125BF52C4035D500D11129 /* Build configuration list for PBXNativeTarget "XMTechChallengeUITests" */;
 			buildPhases = (
-				0F3424062C4022E400704F42 /* Sources */,
-				0F3424072C4022E400704F42 /* Frameworks */,
-				0F3424082C4022E400704F42 /* Resources */,
+				0F125BE12C4035D500D11129 /* Sources */,
+				0F125BE22C4035D500D11129 /* Frameworks */,
+				0F125BE32C4035D500D11129 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0F34240C2C4022E400704F42 /* PBXTargetDependency */,
+				0F125BE72C4035D500D11129 /* PBXTargetDependency */,
 			);
-			name = XMTechnicalTestUITests;
-			productName = XMTechnicalTestUITests;
-			productReference = 0F34240A2C4022E400704F42 /* XMTechnicalTestUITests.xctest */;
+			name = XMTechChallengeUITests;
+			productName = XMTechChallengeUITests;
+			productReference = 0F125BE52C4035D500D11129 /* XMTechChallengeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0F3423E72C4022E300704F42 /* Project object */ = {
+		0F125BC22C4035D300D11129 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					0F3423EE2C4022E300704F42 = {
+					0F125BC92C4035D300D11129 = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					0F3423FF2C4022E400704F42 = {
+					0F125BDA2C4035D500D11129 = {
 						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 0F3423EE2C4022E300704F42;
+						TestTargetID = 0F125BC92C4035D300D11129;
 					};
-					0F3424092C4022E400704F42 = {
+					0F125BE42C4035D500D11129 = {
 						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 0F3423EE2C4022E300704F42;
+						TestTargetID = 0F125BC92C4035D300D11129;
 					};
 				};
 			};
-			buildConfigurationList = 0F3423EA2C4022E300704F42 /* Build configuration list for PBXProject "XMTechnicalTest" */;
+			buildConfigurationList = 0F125BC52C4035D300D11129 /* Build configuration list for PBXProject "XMTechChallenge" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +229,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 0F3423E62C4022E300704F42;
-			productRefGroup = 0F3423F02C4022E300704F42 /* Products */;
+			mainGroup = 0F125BC12C4035D300D11129;
+			productRefGroup = 0F125BCB2C4035D300D11129 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0F3423EE2C4022E300704F42 /* XMTechnicalTest */,
-				0F3423FF2C4022E400704F42 /* XMTechnicalTestTests */,
-				0F3424092C4022E400704F42 /* XMTechnicalTestUITests */,
+				0F125BC92C4035D300D11129 /* XMTechChallenge */,
+				0F125BDA2C4035D500D11129 /* XMTechChallengeTests */,
+				0F125BE42C4035D500D11129 /* XMTechChallengeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0F3423ED2C4022E300704F42 /* Resources */ = {
+		0F125BC82C4035D300D11129 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F3423FB2C4022E400704F42 /* Preview Assets.xcassets in Resources */,
-				0F3423F72C4022E400704F42 /* Assets.xcassets in Resources */,
+				0F125BD62C4035D500D11129 /* Preview Assets.xcassets in Resources */,
+				0F125BD22C4035D500D11129 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0F3423FE2C4022E400704F42 /* Resources */ = {
+		0F125BD92C4035D500D11129 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0F3424082C4022E400704F42 /* Resources */ = {
+		0F125BE32C4035D500D11129 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,49 +268,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0F3423EB2C4022E300704F42 /* Sources */ = {
+		0F125BC62C4035D300D11129 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F3423F52C4022E300704F42 /* ContentView.swift in Sources */,
-				0F3423F32C4022E300704F42 /* XMTechnicalTestApp.swift in Sources */,
+				0F125BCE2C4035D300D11129 /* XMTechChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0F3423FC2C4022E400704F42 /* Sources */ = {
+		0F125BD72C4035D500D11129 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F3424052C4022E400704F42 /* XMTechnicalTestTests.swift in Sources */,
+				0F125BE02C4035D500D11129 /* XMTechChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0F3424062C4022E400704F42 /* Sources */ = {
+		0F125BE12C4035D500D11129 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F34240F2C4022E400704F42 /* XMTechnicalTestUITests.swift in Sources */,
-				0F3424112C4022E400704F42 /* XMTechnicalTestUITestsLaunchTests.swift in Sources */,
+				0F125BEA2C4035D500D11129 /* XMTechChallengeUITests.swift in Sources */,
+				0F125BEC2C4035D500D11129 /* XMTechChallengeUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0F3424022C4022E400704F42 /* PBXTargetDependency */ = {
+		0F125BDD2C4035D500D11129 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0F3423EE2C4022E300704F42 /* XMTechnicalTest */;
-			targetProxy = 0F3424012C4022E400704F42 /* PBXContainerItemProxy */;
+			target = 0F125BC92C4035D300D11129 /* XMTechChallenge */;
+			targetProxy = 0F125BDC2C4035D500D11129 /* PBXContainerItemProxy */;
 		};
-		0F34240C2C4022E400704F42 /* PBXTargetDependency */ = {
+		0F125BE72C4035D500D11129 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0F3423EE2C4022E300704F42 /* XMTechnicalTest */;
-			targetProxy = 0F34240B2C4022E400704F42 /* PBXContainerItemProxy */;
+			target = 0F125BC92C4035D300D11129 /* XMTechChallenge */;
+			targetProxy = 0F125BE62C4035D500D11129 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F3424122C4022E400704F42 /* Debug */ = {
+		0F125BED2C4035D500D11129 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,7 +370,7 @@
 			};
 			name = Debug;
 		};
-		0F3424132C4022E400704F42 /* Release */ = {
+		0F125BEE2C4035D500D11129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -411,15 +423,16 @@
 			};
 			name = Release;
 		};
-		0F3424152C4022E400704F42 /* Debug */ = {
+		0F125BF02C4035D500D11129 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = XMTechnicalTest/XMTechnicalTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"XMTechnicalTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 4SCM77QT7P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -437,7 +450,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xm.techchallenge.anh.XMTechnicalTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xm.techChallenge.anh.XMTechChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -447,15 +460,16 @@
 			};
 			name = Debug;
 		};
-		0F3424162C4022E400704F42 /* Release */ = {
+		0F125BF12C4035D500D11129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = XMTechnicalTest/XMTechnicalTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"XMTechnicalTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 4SCM77QT7P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -473,7 +487,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xm.techchallenge.anh.XMTechnicalTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xm.techChallenge.anh.XMTechChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -483,7 +497,7 @@
 			};
 			name = Release;
 		};
-		0F3424182C4022E400704F42 /* Debug */ = {
+		0F125BF32C4035D500D11129 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -494,18 +508,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xm.techchallenge.anh.XMTechnicalTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xm.techChallenge.anh.XMTechChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMTechnicalTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XMTechnicalTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMTechChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XMTechChallenge";
 			};
 			name = Debug;
 		};
-		0F3424192C4022E400704F42 /* Release */ = {
+		0F125BF42C4035D500D11129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -516,18 +530,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xm.techchallenge.anh.XMTechnicalTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xm.techChallenge.anh.XMTechChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMTechnicalTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XMTechnicalTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMTechChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XMTechChallenge";
 			};
 			name = Release;
 		};
-		0F34241B2C4022E400704F42 /* Debug */ = {
+		0F125BF62C4035D500D11129 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -537,18 +551,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xm.techchallenge.anh.XMTechnicalTestUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xm.techChallenge.anh.XMTechChallengeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = XMTechnicalTest;
+				TEST_TARGET_NAME = XMTechChallenge;
 			};
 			name = Debug;
 		};
-		0F34241C2C4022E400704F42 /* Release */ = {
+		0F125BF72C4035D500D11129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -558,57 +572,64 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xm.techchallenge.anh.XMTechnicalTestUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xm.techChallenge.anh.XMTechChallengeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = XMTechnicalTest;
+				TEST_TARGET_NAME = XMTechChallenge;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0F3423EA2C4022E300704F42 /* Build configuration list for PBXProject "XMTechnicalTest" */ = {
+		0F125BC52C4035D300D11129 /* Build configuration list for PBXProject "XMTechChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F3424122C4022E400704F42 /* Debug */,
-				0F3424132C4022E400704F42 /* Release */,
+				0F125BED2C4035D500D11129 /* Debug */,
+				0F125BEE2C4035D500D11129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0F3424142C4022E400704F42 /* Build configuration list for PBXNativeTarget "XMTechnicalTest" */ = {
+		0F125BEF2C4035D500D11129 /* Build configuration list for PBXNativeTarget "XMTechChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F3424152C4022E400704F42 /* Debug */,
-				0F3424162C4022E400704F42 /* Release */,
+				0F125BF02C4035D500D11129 /* Debug */,
+				0F125BF12C4035D500D11129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0F3424172C4022E400704F42 /* Build configuration list for PBXNativeTarget "XMTechnicalTestTests" */ = {
+		0F125BF22C4035D500D11129 /* Build configuration list for PBXNativeTarget "XMTechChallengeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F3424182C4022E400704F42 /* Debug */,
-				0F3424192C4022E400704F42 /* Release */,
+				0F125BF32C4035D500D11129 /* Debug */,
+				0F125BF42C4035D500D11129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0F34241A2C4022E400704F42 /* Build configuration list for PBXNativeTarget "XMTechnicalTestUITests" */ = {
+		0F125BF52C4035D500D11129 /* Build configuration list for PBXNativeTarget "XMTechChallengeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F34241B2C4022E400704F42 /* Debug */,
-				0F34241C2C4022E400704F42 /* Release */,
+				0F125BF62C4035D500D11129 /* Debug */,
+				0F125BF72C4035D500D11129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0FCCCDE72C407BD100E7BFAE /* AppRoot */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppRoot;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 0F3423E72C4022E300704F42 /* Project object */;
+	rootObject = 0F125BC22C4035D300D11129 /* Project object */;
 }

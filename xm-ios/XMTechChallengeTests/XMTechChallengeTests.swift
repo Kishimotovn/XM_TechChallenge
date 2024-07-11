@@ -1,13 +1,13 @@
 //
-//  XMTechnicalTestTests.swift
-//  XMTechnicalTestTests
+//  XMTechChallengeTests.swift
+//  XMTechChallengeTests
 //
 //  Created by Phan Anh Tran on 11/07/2024.
 //
 
 import XCTest
 
-final class XMTechnicalTestTests: XCTestCase {
+final class XMTechChallengeTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

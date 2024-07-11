@@ -1,13 +1,13 @@
 //
-//  XMTechnicalTestUITestsLaunchTests.swift
-//  XMTechnicalTestUITests
+//  XMTechChallengeUITestsLaunchTests.swift
+//  XMTechChallengeUITests
 //
 //  Created by Phan Anh Tran on 11/07/2024.
 //
 
 import XCTest
 
-final class XMTechnicalTestUITestsLaunchTests: XCTestCase {
+final class XMTechChallengeUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
