@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "3ACA2114-DCD1-4E11-A1AB-8E236467D78E",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "APIClientTests",
+        "name" : "APIClientTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "AppRootTests",
+        "name" : "AppRootTests"
+      }
+    }
+  ],
+  "version" : 1
+}

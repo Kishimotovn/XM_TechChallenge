@@ -1,22 +1,40 @@
 import Foundation
 import SwiftUI
 import ComposableArchitecture
+import QuestionFeed
 
+@ViewAction(for: AppRoot.self)
 public struct AppRootView: View {
-    let store: StoreOf<AppRoot>
+    @Bindable
+    public var store: StoreOf<AppRoot>
     
     public init(store: StoreOf<AppRoot>) {
         self.store = store
     }
     
     public var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack(
+            path: $store.scope(state: \.path, action: \.path)
+        ) {
+            VStack(spacing: 16) {
+                if let errorMessage = store.errorMessage {
+                    Text("Error: \(errorMessage)")
+                }
+                Button {
+                    send(.startQuestionnaireTapped)
+                } label: {
+                    if store.isLoading {
+                        ProgressView()
+                    } else {
+                        Text("Start survey")
+                    }
+                }.disabled(store.isLoading)
+            }
+            .navigationTitle("Welcome")
+            .frame(maxWidth: .greatestFiniteMagnitude)
+        } destination: { store in
+            QuestionFeedView(store: store)
         }
-        .padding()
     }
 }
 

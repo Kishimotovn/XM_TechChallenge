@@ -10,28 +10,9 @@
 		0F125BCE2C4035D300D11129 /* XMTechChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F125BCD2C4035D300D11129 /* XMTechChallengeApp.swift */; };
 		0F125BD22C4035D500D11129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F125BD12C4035D500D11129 /* Assets.xcassets */; };
 		0F125BD62C4035D500D11129 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F125BD52C4035D500D11129 /* Preview Assets.xcassets */; };
-		0F125BE02C4035D500D11129 /* XMTechChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F125BDF2C4035D500D11129 /* XMTechChallengeTests.swift */; };
-		0F125BEA2C4035D500D11129 /* XMTechChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F125BE92C4035D500D11129 /* XMTechChallengeUITests.swift */; };
-		0F125BEC2C4035D500D11129 /* XMTechChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F125BEB2C4035D500D11129 /* XMTechChallengeUITestsLaunchTests.swift */; };
+		0F3816352C4080B400F405ED /* ConfigConstant.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F3816342C4080B400F405ED /* ConfigConstant.plist */; };
 		0FCCCDE82C407BD100E7BFAE /* AppRoot in Frameworks */ = {isa = PBXBuildFile; productRef = 0FCCCDE72C407BD100E7BFAE /* AppRoot */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0F125BDC2C4035D500D11129 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0F125BC22C4035D300D11129 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0F125BC92C4035D300D11129;
-			remoteInfo = XMTechChallenge;
-		};
-		0F125BE62C4035D500D11129 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0F125BC22C4035D300D11129 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0F125BC92C4035D300D11129;
-			remoteInfo = XMTechChallenge;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0F125BCA2C4035D300D11129 /* XMTechChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMTechChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,12 +20,9 @@
 		0F125BD12C4035D500D11129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F125BD32C4035D500D11129 /* XMTechChallenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XMTechChallenge.entitlements; sourceTree = "<group>"; };
 		0F125BD52C4035D500D11129 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0F125BDB2C4035D500D11129 /* XMTechChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMTechChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F125BDF2C4035D500D11129 /* XMTechChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMTechChallengeTests.swift; sourceTree = "<group>"; };
-		0F125BE52C4035D500D11129 /* XMTechChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMTechChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F125BE92C4035D500D11129 /* XMTechChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMTechChallengeUITests.swift; sourceTree = "<group>"; };
-		0F125BEB2C4035D500D11129 /* XMTechChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMTechChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0F125BF82C40368400D11129 /* XMTechnicalChallenge */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = XMTechnicalChallenge; path = ..; sourceTree = "<group>"; };
+		0F3816342C4080B400F405ED /* ConfigConstant.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ConfigConstant.plist; sourceTree = "<group>"; };
+		0FB057D72C408CF5002CDF80 /* XMTechChallengeTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = XMTechChallengeTestPlan.xctestplan; path = ../XMTechChallengeTestPlan.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,30 +34,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0F125BD82C4035D500D11129 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0F125BE22C4035D500D11129 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0F125BC12C4035D300D11129 = {
 			isa = PBXGroup;
 			children = (
+				0FB057D72C408CF5002CDF80 /* XMTechChallengeTestPlan.xctestplan */,
 				0F125BF82C40368400D11129 /* XMTechnicalChallenge */,
-				0F125BCC2C4035D300D11129 /* XMTechChallenge */,
-				0F125BDE2C4035D500D11129 /* XMTechChallengeTests */,
-				0F125BE82C4035D500D11129 /* XMTechChallengeUITests */,
+				0F125BCC2C4035D300D11129 /* IOS */,
 				0F125BCB2C4035D300D11129 /* Products */,
 				0FCCCDE62C407BD100E7BFAE /* Frameworks */,
 			);
@@ -89,21 +52,20 @@
 			isa = PBXGroup;
 			children = (
 				0F125BCA2C4035D300D11129 /* XMTechChallenge.app */,
-				0F125BDB2C4035D500D11129 /* XMTechChallengeTests.xctest */,
-				0F125BE52C4035D500D11129 /* XMTechChallengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0F125BCC2C4035D300D11129 /* XMTechChallenge */ = {
+		0F125BCC2C4035D300D11129 /* IOS */ = {
 			isa = PBXGroup;
 			children = (
 				0F125BCD2C4035D300D11129 /* XMTechChallengeApp.swift */,
 				0F125BD12C4035D500D11129 /* Assets.xcassets */,
 				0F125BD32C4035D500D11129 /* XMTechChallenge.entitlements */,
 				0F125BD42C4035D500D11129 /* Preview Content */,
+				0F3816342C4080B400F405ED /* ConfigConstant.plist */,
 			);
-			name = XMTechChallenge;
+			name = IOS;
 			path = XCTechChallenge;
 			sourceTree = "<group>";
 		};
@@ -113,23 +75,6 @@
 				0F125BD52C4035D500D11129 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		0F125BDE2C4035D500D11129 /* XMTechChallengeTests */ = {
-			isa = PBXGroup;
-			children = (
-				0F125BDF2C4035D500D11129 /* XMTechChallengeTests.swift */,
-			);
-			path = XMTechChallengeTests;
-			sourceTree = "<group>";
-		};
-		0F125BE82C4035D500D11129 /* XMTechChallengeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0F125BE92C4035D500D11129 /* XMTechChallengeUITests.swift */,
-				0F125BEB2C4035D500D11129 /* XMTechChallengeUITestsLaunchTests.swift */,
-			);
-			path = XMTechChallengeUITests;
 			sourceTree = "<group>";
 		};
 		0FCCCDE62C407BD100E7BFAE /* Frameworks */ = {
@@ -162,42 +107,6 @@
 			productReference = 0F125BCA2C4035D300D11129 /* XMTechChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0F125BDA2C4035D500D11129 /* XMTechChallengeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0F125BF22C4035D500D11129 /* Build configuration list for PBXNativeTarget "XMTechChallengeTests" */;
-			buildPhases = (
-				0F125BD72C4035D500D11129 /* Sources */,
-				0F125BD82C4035D500D11129 /* Frameworks */,
-				0F125BD92C4035D500D11129 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0F125BDD2C4035D500D11129 /* PBXTargetDependency */,
-			);
-			name = XMTechChallengeTests;
-			productName = XMTechChallengeTests;
-			productReference = 0F125BDB2C4035D500D11129 /* XMTechChallengeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0F125BE42C4035D500D11129 /* XMTechChallengeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0F125BF52C4035D500D11129 /* Build configuration list for PBXNativeTarget "XMTechChallengeUITests" */;
-			buildPhases = (
-				0F125BE12C4035D500D11129 /* Sources */,
-				0F125BE22C4035D500D11129 /* Frameworks */,
-				0F125BE32C4035D500D11129 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0F125BE72C4035D500D11129 /* PBXTargetDependency */,
-			);
-			name = XMTechChallengeUITests;
-			productName = XMTechChallengeUITests;
-			productReference = 0F125BE52C4035D500D11129 /* XMTechChallengeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,14 +119,6 @@
 				TargetAttributes = {
 					0F125BC92C4035D300D11129 = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					0F125BDA2C4035D500D11129 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 0F125BC92C4035D300D11129;
-					};
-					0F125BE42C4035D500D11129 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 0F125BC92C4035D300D11129;
 					};
 				};
 			};
@@ -235,8 +136,6 @@
 			projectRoot = "";
 			targets = (
 				0F125BC92C4035D300D11129 /* XMTechChallenge */,
-				0F125BDA2C4035D500D11129 /* XMTechChallengeTests */,
-				0F125BE42C4035D500D11129 /* XMTechChallengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,20 +147,7 @@
 			files = (
 				0F125BD62C4035D500D11129 /* Preview Assets.xcassets in Resources */,
 				0F125BD22C4035D500D11129 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0F125BD92C4035D500D11129 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0F125BE32C4035D500D11129 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				0F3816352C4080B400F405ED /* ConfigConstant.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,37 +162,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0F125BD72C4035D500D11129 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0F125BE02C4035D500D11129 /* XMTechChallengeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0F125BE12C4035D500D11129 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0F125BEA2C4035D500D11129 /* XMTechChallengeUITests.swift in Sources */,
-				0F125BEC2C4035D500D11129 /* XMTechChallengeUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0F125BDD2C4035D500D11129 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0F125BC92C4035D300D11129 /* XMTechChallenge */;
-			targetProxy = 0F125BDC2C4035D500D11129 /* PBXContainerItemProxy */;
-		};
-		0F125BE72C4035D500D11129 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0F125BC92C4035D300D11129 /* XMTechChallenge */;
-			targetProxy = 0F125BE62C4035D500D11129 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0F125BED2C4035D500D11129 /* Debug */ = {
@@ -497,92 +353,6 @@
 			};
 			name = Release;
 		};
-		0F125BF32C4035D500D11129 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xm.techChallenge.anh.XMTechChallengeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMTechChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XMTechChallenge";
-			};
-			name = Debug;
-		};
-		0F125BF42C4035D500D11129 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xm.techChallenge.anh.XMTechChallengeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMTechChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XMTechChallenge";
-			};
-			name = Release;
-		};
-		0F125BF62C4035D500D11129 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xm.techChallenge.anh.XMTechChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = XMTechChallenge;
-			};
-			name = Debug;
-		};
-		0F125BF72C4035D500D11129 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xm.techChallenge.anh.XMTechChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = XMTechChallenge;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -600,24 +370,6 @@
 			buildConfigurations = (
 				0F125BF02C4035D500D11129 /* Debug */,
 				0F125BF12C4035D500D11129 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0F125BF22C4035D500D11129 /* Build configuration list for PBXNativeTarget "XMTechChallengeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0F125BF32C4035D500D11129 /* Debug */,
-				0F125BF42C4035D500D11129 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0F125BF52C4035D500D11129 /* Build configuration list for PBXNativeTarget "XMTechChallengeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0F125BF62C4035D500D11129 /* Debug */,
-				0F125BF72C4035D500D11129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
