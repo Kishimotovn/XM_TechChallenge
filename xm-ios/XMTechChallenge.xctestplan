@@ -1,34 +1,38 @@
 {
   "configurations" : [
     {
-      "id" : "3ACA2114-DCD1-4E11-A1AB-8E236467D78E",
-      "name" : "Configuration 1",
+      "id" : "39B4402D-EBD0-43E1-9BC1-C6EB07203BF2",
+      "name" : "Test Scheme Action",
       "options" : {
 
       }
     }
   ],
   "defaultOptions" : {
-    "testTimeoutsEnabled" : true
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:XMTechChallenge.xcodeproj",
+      "identifier" : "0F125BC92C4035D300D11129",
+      "name" : "XMTechChallenge"
+    }
   },
   "testTargets" : [
     {
       "target" : {
-        "containerPath" : "container:",
+        "containerPath" : "container:..",
         "identifier" : "APIClientTests",
         "name" : "APIClientTests"
       }
     },
     {
       "target" : {
-        "containerPath" : "container:",
+        "containerPath" : "container:..",
         "identifier" : "AppRootTests",
         "name" : "AppRootTests"
       }
     },
     {
       "target" : {
-        "containerPath" : "container:",
+        "containerPath" : "container:..",
         "identifier" : "QuestionFeedTests",
         "name" : "QuestionFeedTests"
       }

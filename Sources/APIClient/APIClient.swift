@@ -19,7 +19,6 @@ extension APIClient: DependencyKey {
         
     }
 
-    
     public static var liveValue: APIClient = .live
 }
 
@@ -46,6 +45,7 @@ extension APIClient {
         answer: String,
         throwing error: Error? = nil
     ) {
+        let fulfill = expectation(description: "submitQuestionAPI Called")
         self.submitQuestion = { @Sendable [self] requestQuestionID, requestAnswer in
             guard
                 requestQuestionID == questionID,
@@ -53,6 +53,7 @@ extension APIClient {
             else {
                 return try await self.submitQuestion(requestQuestionID, requestAnswer)
             }
+            fulfill()
             if let error {
                 throw error
             }

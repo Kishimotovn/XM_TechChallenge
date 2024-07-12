@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "APIClient"
-               BuildableName = "APIClient"
-               BlueprintName = "APIClient"
-               ReferencedContainer = "container:">
+               BlueprintIdentifier = "0F125BC92C4035D300D11129"
+               BuildableName = "XMTechChallenge.app"
+               BlueprintName = "XMTechChallenge"
+               ReferencedContainer = "container:XMTechChallenge.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,8 +27,13 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      shouldAutocreateTestPlan = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <TestPlans>
+         <TestPlanReference
+            reference = "container:XMTechChallenge.xctestplan"
+            default = "YES">
+         </TestPlanReference>
+      </TestPlans>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -40,6 +45,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0F125BC92C4035D300D11129"
+            BuildableName = "XMTechChallenge.app"
+            BlueprintName = "XMTechChallenge"
+            ReferencedContainer = "container:XMTechChallenge.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -47,15 +62,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "APIClient"
-            BuildableName = "APIClient"
-            BlueprintName = "APIClient"
-            ReferencedContainer = "container:">
+            BlueprintIdentifier = "0F125BC92C4035D300D11129"
+            BuildableName = "XMTechChallenge.app"
+            BlueprintName = "XMTechChallenge"
+            ReferencedContainer = "container:XMTechChallenge.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

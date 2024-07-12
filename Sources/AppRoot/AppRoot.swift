@@ -53,7 +53,8 @@ public struct AppRoot {
             case .errorMessageUpdated(let errorMessage):
                 state.errorMessage = errorMessage
                 return .none
-            case .questionsUpdated(_):
+            case .questionsUpdated(let questions):
+                state.path.append(.init(questions: questions))
                 return .none
             case .path:
                 return .none

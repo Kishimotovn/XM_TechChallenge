@@ -21,6 +21,7 @@ public extension APIClient {
                     httpMethod: .post,
                     jsonBody: input
                 )
+                print("sending answer", answer, questionID)
                 _ = try await restClient.request(requestData)
             }
         )

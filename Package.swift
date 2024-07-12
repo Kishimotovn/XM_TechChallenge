@@ -9,6 +9,7 @@ private let modules = [
     "ConfigConstant",
     "QuestionFeed",
     "Models",
+    "Utils",
     "XCTestDebugSupport"
 ]
 
@@ -30,6 +31,7 @@ let package = Package(
             name: "AppRoot",
             dependencies: [
                 "APIClient",
+                "Models",
                 "QuestionFeed",
                 .product(name: "ComposableArchitecture", package: "swift-composable-architecture")
             ]
@@ -52,11 +54,17 @@ let package = Package(
         .target(
             name: "QuestionFeed",
             dependencies: [
+                "APIClient",
+                "Models",
+                "Utils",
                 .product(name: "ComposableArchitecture", package: "swift-composable-architecture")
             ]
         ),
         .target(
             name: "Models"
+        ),
+        .target(
+            name: "Utils"
         ),
         .testTarget(
             name: "AppRootTests",
@@ -69,6 +77,13 @@ let package = Package(
             name: "APIClientTests",
             dependencies: [
                 "APIClient"
+            ]
+        ),
+        .testTarget(
+            name: "QuestionFeedTests",
+            dependencies: [
+                "QuestionFeed",
+                .product(name: "SnapshotTesting", package: "swift-snapshot-testing")
             ]
         ),
         .target(name: "XCTestDebugSupport")

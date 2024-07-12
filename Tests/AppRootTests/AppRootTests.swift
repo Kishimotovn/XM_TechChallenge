@@ -1,6 +1,7 @@
 import XCTest
 import ComposableArchitecture
 @testable import AppRoot
+import QuestionFeed
 import APIClient
 import Models
 
@@ -20,7 +21,7 @@ final class AppRootTests: XCTestCase {
 
     @MainActor
     func testGetQuestionnaireSuccess() async throws {
-    let questions: [Question] = [
+        let questions: [Question] = [
             .init(id: 1, question: "question1"),
             .init(id: 2, question: "question2")
         ]
@@ -42,7 +43,9 @@ final class AppRootTests: XCTestCase {
             $0.isLoading = false
         }
         
-        await store.receive(\.questionsUpdated, questions)
+        await store.receive(\.questionsUpdated, questions) {
+            $0.path[id: 0] = .init(questions: questions)
+        }
     }
     
     @MainActor

@@ -22,7 +22,7 @@
 		0F125BD52C4035D500D11129 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0F125BF82C40368400D11129 /* XMTechnicalChallenge */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = XMTechnicalChallenge; path = ..; sourceTree = "<group>"; };
 		0F3816342C4080B400F405ED /* ConfigConstant.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ConfigConstant.plist; sourceTree = "<group>"; };
-		0FB057D72C408CF5002CDF80 /* XMTechChallengeTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = XMTechChallengeTestPlan.xctestplan; path = ../XMTechChallengeTestPlan.xctestplan; sourceTree = "<group>"; };
+		0FBA0BDC2C4177D0002ED4A9 /* XMTechChallenge.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = XMTechChallenge.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 		0F125BC12C4035D300D11129 = {
 			isa = PBXGroup;
 			children = (
-				0FB057D72C408CF5002CDF80 /* XMTechChallengeTestPlan.xctestplan */,
+				0FBA0BDC2C4177D0002ED4A9 /* XMTechChallenge.xctestplan */,
 				0F125BF82C40368400D11129 /* XMTechnicalChallenge */,
 				0F125BCC2C4035D300D11129 /* IOS */,
 				0F125BCB2C4035D300D11129 /* Products */,
