@@ -54,6 +54,9 @@ public struct AppRoot {
                 state.errorMessage = errorMessage
                 return .none
             case .questionsUpdated(let questions):
+                guard !questions.isEmpty else {
+                    return .none
+                }
                 state.path.append(.init(questions: questions))
                 return .none
             case .path:
