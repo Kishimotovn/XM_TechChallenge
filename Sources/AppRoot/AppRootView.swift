@@ -29,6 +29,7 @@ public struct AppRootView: View {
                         Text("Start survey")
                     }
                 }.disabled(store.isLoading)
+                .buttonStyle(.bordered)
             }
             .navigationTitle("Welcome")
             .frame(maxWidth: .greatestFiniteMagnitude)
